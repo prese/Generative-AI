@@ -16,6 +16,7 @@ character_descriptions.csv - this file contains character descriptions from thea
 nyc_food_scrap_drop_off_sites.csv - this file contains locations, hours, and other information about food scrap drop-off sites in New York City. This information was retrieved in early 2023, and you can also get the latest version from this open data portal(opens in a new tab).
 You may also source your own data. For example, you might want to use web scraping or other documents you have on hand. The dataset must have at least 20 rows, and it must be composed of text data. OpenAI language models are not optimized for numeric or logical reasoning, so number-heavy data like budgets, sensor data, or inventory are not appropriate.
 
+
 ## Custom Scenario
 In addition to the technical component of preparing and incorporating a new dataset, you need to explain why this dataset is appropriate for the task. If the model responds the same way regardless of whether custom data is provided, that means that the dataset was not appropriate for the task. You will explain your dataset choice in two ways:
 
